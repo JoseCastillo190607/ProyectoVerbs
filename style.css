@@ -1,0 +1,70 @@
+body{
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: 0%;
+}
+.container{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    height: 10%;
+    color: white;
+    padding: 15px;
+}
+.col-9{
+    height: 10%;
+    display: flex;
+
+}
+.title{
+    margin-left: 20px;
+    font-size: medium;
+}
+
+.row1{
+    width: 80%;
+    display: flex;
+
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+}
+
+#next{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#verbsContainer{
+    margin: 0.35%;
+
+}
+
+.verbs-answer{
+    display: flex;
+
+}
+
+.rightAnswer, .rightAnswer :hover{
+    background-color: #6ab04c;
+    border-color: #6ab04c;
+    color: white;
+
+}
+
+.wrongAnswer, .wrongAnswer :hover{
+    background-color: #b33030;
+    border-color: #b33030;
+    color: white;
+}
+
+#next{
+    margin-top: 8rem;
+    cursor: pointer;
+    color: green;
+}
+

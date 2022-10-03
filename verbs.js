@@ -1,0 +1,5 @@
+const verbs = [
+    'open',
+    'close',
+
+]
